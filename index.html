@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Iván Castillo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header id="main-header">
+    <h1>PORTAFOLIO IVÁN CASTILLO</h1>
+  </header>
+
+  <div id="triangle"></div>
+  <div id="dropdown">
+    <div class="drop-item" id="sobre-mi">Sobre mí</div>
+    <div class="sub-item" id="sobre-mi-sub">Diseñador EAD PUCV</div>
+    <div class="drop-item" id="contacto">Contacto</div>
+    <div class="sub-item" id="contacto-sub">@slate.blue</div>
+  </div>
+
+  <div id="canvas-container"></div>
+
+  <div id="container">
+    <div class="intro">
+      <p>
+        Imagen escrita es una asignatura que se centra en la intersección entre diseño,
+        la programación y arte generativo. Utilizando p5.js como herramienta principal, el curso explora los
+        fundamentos de la programación creativa y su aplicación en el diseño visual interactivo.
+      </p>
+      <p>
+        A través del creative coding se hace énfasis en el pensamiento computacional como herramienta de diseño,
+        fomentando un enfoque innovador en la resolución de problemas visuales y la creación artística.
+      </p>
+      <a href="https://wiki.ead.pucv.cl/Sitio_Web_IE_-_Iv%C3%A1n_Castillo" target="_blank" class="wiki-link">
+        Wiki del proyecto
+      </a>
+    </div>
+
+    <div class="proyectos">
+      <div class="galeria">
+        <div class="tarjeta" data-link="https://editor.p5js.org/gatocorbata/full/07vsUT-Dl"><h3>Tarea 1</h3></div>
+        <div class="tarjeta" data-link="https://editor.p5js.org/gatocorbata/full/NbPGgK909"><h3>Tarea 2</h3></div>
+        <div class="tarjeta" data-link="https://editor.p5js.org/gatocorbata/full/Z5Z8TdFxA"><h3>Tarea 3</h3></div>
+        <div class="tarjeta" data-link="https://editor.p5js.org/gatocorbata/full/W0kJd6JCR"><h3>Tarea 4</h3></div>
+        <div class="tarjeta" id="easter-egg"><h3>?</h3><img src="assets/imagen1.png" alt=""></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="pong-modal">
+    <div id="pong-container"></div>
+    <span id="close-modal">&times;</span>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
